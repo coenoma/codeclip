@@ -1,0 +1,64 @@
+{
+  "name": "codeclip",
+  "displayName": "%extension.displayName%",
+  "description": "%extension.description%",
+  "version": "0.0.1",
+  "publisher": "coenoma",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeclip.copyAllOpenFiles",
+        "title": "%codeclip.copyAllOpenFiles%",
+        "category": "CodeClip"
+      },
+      {
+        "command": "codeclip.copyActiveFile",
+        "title": "%codeclip.copyActiveFile%",
+        "category": "CodeClip"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeclip.copyAllOpenFiles",
+        "key": "ctrl+alt+shift+a",
+        "mac": "cmd+alt+shift+a",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeclip.copyActiveFile",
+        "key": "ctrl+alt+shift+c",
+        "mac": "cmd+alt+shift+c",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "dependencies": {
+    "vscode-nls": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.9",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.95.0",
+    "@typescript-eslint/eslint-plugin": "^8.10.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.3"
+  }
+}

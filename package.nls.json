@@ -1,0 +1,6 @@
+{
+    "extension.displayName": "CodeClip",
+    "extension.description": "Easily copy code to clipboard from open files in VSCode",
+    "codeclip.copyAllOpenFiles": "Copy All Open Files to Clipboard",
+    "codeclip.copyActiveFile": "Copy Active File to Clipboard"
+}
