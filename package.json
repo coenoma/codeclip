@@ -2,7 +2,7 @@
   "name": "codeclipmate",
   "displayName": "CodeClipMate",
   "description": "%extension.description%",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "coenoma",
   "engines": {
     "vscode": "^1.75.0"
@@ -13,30 +13,30 @@
   "main": "./out/extension.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/coenoma/codeclip.git"
+    "url": "https://github.com/coenoma/codeclipmate.git"
   },
   "contributes": {
     "commands": [
       {
-        "command": "codeclip.copyAllOpenFiles",
-        "title": "%codeclip.copyAllOpenFiles%",
-        "category": "CodeClip"
+        "command": "codeclipmate.copyAllOpenFiles",
+        "title": "%codeclipmate.copyAllOpenFiles%",
+        "category": "CodeClipMate"
       },
       {
-        "command": "codeclip.copyActiveFile",
-        "title": "%codeclip.copyActiveFile%",
-        "category": "CodeClip"
+        "command": "codeclipmate.copyActiveFile",
+        "title": "%codeclipmate.copyActiveFile%",
+        "category": "CodeClipMate"
       }
     ],
     "keybindings": [
       {
-        "command": "codeclip.copyAllOpenFiles",
+        "command": "codeclipmate.copyAllOpenFiles",
         "key": "ctrl+alt+shift+a",
         "mac": "cmd+alt+shift+a",
         "when": "editorTextFocus"
       },
       {
-        "command": "codeclip.copyActiveFile",
+        "command": "codeclipmate.copyActiveFile",
         "key": "ctrl+alt+shift+c",
         "mac": "cmd+alt+shift+c",
         "when": "editorTextFocus"

@@ -1,8 +1,8 @@
-# CodeClip
+# CodeClipMate
 
 *日本語版は英語版の下にあります。*
 
-CodeClip is a Visual Studio Code extension that allows you to easily copy the contents of your open files to the clipboard. You can copy multiple files at once, which is useful for sharing code snippets or creating backups.
+CodeClipMate is a Visual Studio Code extension that allows you to easily copy the contents of your open files to the clipboard. You can copy multiple files at once, which is useful for sharing code snippets or creating backups.
 
 ## Features
 
@@ -33,7 +33,7 @@ CodeClip is a Visual Studio Code extension that allows you to easily copy the co
 You can change the keyboard shortcuts by following these steps:
 
 1. Press `Ctrl + K Ctrl + S` (on Mac, `Cmd + K Cmd + S`) to open Keyboard Shortcuts settings.
-2. Enter "CodeClip" in the search bar and edit the shortcuts for the commands you wish to change.
+2. Enter "CodeClipMate" in the search bar and edit the shortcuts for the commands you wish to change.
 
 ## License
 
@@ -45,7 +45,7 @@ This extension is released under the MIT License.
 
 *English version is above.*
 
-CodeClipは、Visual Studio Codeで開いているファイルの内容を簡単にクリップボードにコピーできる拡張機能です。複数のファイルを一度にコピーすることも可能で、コードの共有やバックアップに便利です。
+CodeClipMateは、Visual Studio Codeで開いているファイルの内容を簡単にクリップボードにコピーできる拡張機能です。複数のファイルを一度にコピーすることも可能で、コードの共有やバックアップに便利です。
 
 ## 特徴
 
@@ -76,7 +76,7 @@ CodeClipは、Visual Studio Codeで開いているファイルの内容を簡単
 ショートカットキーは以下の手順で変更できます。
 
 1. `Ctrl + K Ctrl + S`（Macの場合は`Cmd + K Cmd + S`）を押してキーボードショートカット設定を開きます。
-2. 検索バーに「CodeClip」と入力し、変更したいコマンドのショートカットキーを編集します。
+2. 検索バーに「CodeClipMate」と入力し、変更したいコマンドのショートカットキーを編集します。
 
 ## ライセンス
 

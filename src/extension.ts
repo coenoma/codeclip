@@ -7,7 +7,7 @@ const localize = nls.loadMessageBundle();
 export function activate(context: vscode.ExtensionContext) {
 
     // コマンド①：開いているすべてのファイルをコピー
-    let disposableAll = vscode.commands.registerCommand('codeclip.copyAllOpenFiles', async () => {
+    let disposableAll = vscode.commands.registerCommand('codeclipmate.copyAllOpenFiles', async () => {
         let content = '';
 
         // すべてのタブを取得
@@ -36,7 +36,7 @@ export function activate(context: vscode.ExtensionContext) {
     });
 
     // コマンド②：アクティブなファイルをコピー
-    let disposableActive = vscode.commands.registerCommand('codeclip.copyActiveFile', async () => {
+    let disposableActive = vscode.commands.registerCommand('codeclipmate.copyActiveFile', async () => {
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             vscode.window.showInformationMessage(localize('noActiveEditor', 'There is no active editor.'));
