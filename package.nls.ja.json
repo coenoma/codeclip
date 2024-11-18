@@ -1,5 +1,4 @@
 {
-    "extension.displayName": "CodeClip",
     "extension.description": "VSCodeで開いているファイルのコードを簡単にクリップボードにコピーします",
     "codeclip.copyAllOpenFiles": "開いているすべてのファイルをクリップボードにコピー",
     "codeclip.copyActiveFile": "アクティブなファイルをクリップボードにコピー"
